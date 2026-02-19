@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的第一个网页</title>
+    <!-- 链接外部CSS文件 -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>欢迎来到我的小站！</h1>
+            <p>这是我用 VS Code 制作的第一个网页。</p>
+        </header>
+
+        <main>
+            <section>
+                <h2>关于我</h2>
+                <p>我是一个正在学习网页开发的新手。</p>
+                <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.0&auto=format&fit=crop&w=500&q=60" alt="编程图片" width="300">
+            </section>
+
+            <section>
+                <h2>我的技能</h2>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript (学习中)</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>与我互动</h2>
+                <button id="changeTextBtn">点我改变标题</button>
+                <button id="alertBtn">点我打招呼</button>
+                <p id="demoText">这是一个会变化的文本。</p>
+            </section>
+        </main>
+
+        <footer>
+            <p>© 2025 我的第一个网页. 学习愉快！</p>
+        </footer>
+    </div>
+
+    <!-- 在body末尾链接外部JS文件 -->
+    <script src="script.js"></script>
+</body>
+</html>
